@@ -7,12 +7,7 @@ class ViewController: UIViewController , CAAnimationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let df =  UINib(nibName: "asd", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! qw
-        
-         df.frame = CGRect.init(x: 20, y: 20, width: 100, height: 100)
-       
-         self.view.addSubview(df)
-     
+    
      
     }
 
