@@ -17,7 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rj-oV-Jzh">
+                                <rect key="frame" x="164.5" y="328.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="cclicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efd-oX-HGx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0rj-oV-Jzh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cG0-1n-2kG"/>
+                            <constraint firstItem="0rj-oV-Jzh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="kR6-J6-PET"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="eoB-Hq-3AE"/>
@@ -29,7 +42,6 @@
         <!--Navigation Controller-->
         <scene sceneID="zN4-gp-CHu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ft9-wd-Swn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="WRo-Od-f4Y" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Nhn-Ci-XDp">
@@ -40,6 +52,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Vaz-ZX-KNZ"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ft9-wd-Swn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-262" y="117"/>
         </scene>

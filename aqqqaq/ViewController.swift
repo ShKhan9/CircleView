@@ -9,7 +9,7 @@ class ViewController: UIViewController , CAAnimationDelegate {
         
         let df =  UINib(nibName: "asd", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! qw
         
-         df.frame = CGRect.init(x: 0, y: 20, width: 100, height: 100)
+         df.frame = CGRect.init(x: 20, y: 20, width: 100, height: 100)
        
          self.view.addSubview(df)
      
@@ -19,10 +19,9 @@ class ViewController: UIViewController , CAAnimationDelegate {
     @IBAction func cclicked(_ sender: Any) {
         
       
+        self.navigationController!.pushViewController(tyyViewController(nibName: "tyyViewController", bundle: nil), animated: true)
         
-        let cv = self.storyboard?.instantiateViewController(withIdentifier: "22")
         
-        self.navigationController?.pushViewController(cv!, animated: true)
         
     }
     override func didReceiveMemoryWarning() {

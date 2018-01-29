@@ -14,6 +14,8 @@
 		701BB599201ED77C00A59E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701BB597201ED77C00A59E3E /* LaunchScreen.storyboard */; };
 		70411943201F44BA00E813F2 /* qw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70411942201F44BA00E813F2 /* qw.swift */; };
 		70411947201F47CB00E813F2 /* asd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70411946201F47CB00E813F2 /* asd.xib */; };
+		7041194A201F4C0F00E813F2 /* tyyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70411948201F4C0F00E813F2 /* tyyViewController.swift */; };
+		7041194B201F4C0F00E813F2 /* tyyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70411949201F4C0F00E813F2 /* tyyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		701BB59A201ED77C00A59E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70411942201F44BA00E813F2 /* qw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qw.swift; sourceTree = "<group>"; };
 		70411946201F47CB00E813F2 /* asd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = asd.xib; sourceTree = "<group>"; };
+		70411948201F4C0F00E813F2 /* tyyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tyyViewController.swift; sourceTree = "<group>"; };
+		70411949201F4C0F00E813F2 /* tyyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tyyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				70411946201F47CB00E813F2 /* asd.xib */,
 				701BB590201ED77C00A59E3E /* ViewController.swift */,
 				70411942201F44BA00E813F2 /* qw.swift */,
+				70411948201F4C0F00E813F2 /* tyyViewController.swift */,
+				70411949201F4C0F00E813F2 /* tyyViewController.xib */,
 				701BB592201ED77C00A59E3E /* Main.storyboard */,
 				701BB595201ED77C00A59E3E /* Assets.xcassets */,
 				701BB597201ED77C00A59E3E /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7041194B201F4C0F00E813F2 /* tyyViewController.xib in Resources */,
 				70411947201F47CB00E813F2 /* asd.xib in Resources */,
 				701BB599201ED77C00A59E3E /* LaunchScreen.storyboard in Resources */,
 				701BB596201ED77C00A59E3E /* Assets.xcassets in Resources */,
@@ -146,6 +153,7 @@
 				701BB591201ED77C00A59E3E /* ViewController.swift in Sources */,
 				701BB58F201ED77C00A59E3E /* AppDelegate.swift in Sources */,
 				70411943201F44BA00E813F2 /* qw.swift in Sources */,
+				7041194A201F4C0F00E813F2 /* tyyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
