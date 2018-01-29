@@ -1,20 +1,30 @@
-//
-//  ViewController.swift
-//  aqqqaq
-//
-//  Created by sameh mohammed on 1/28/18.
-//  Copyright © 2018 com.trio. All rights reserved.
-//
-
+ 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , CAAnimationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let df =  UINib(nibName: "asd", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! qw
+        
+         df.frame = CGRect.init(x: 0, y: 20, width: 100, height: 100)
+       
+         self.view.addSubview(df)
+     
+     
     }
 
+    @IBAction func cclicked(_ sender: Any) {
+        
+      
+        
+        let cv = self.storyboard?.instantiateViewController(withIdentifier: "22")
+        
+        self.navigationController?.pushViewController(cv!, animated: true)
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -23,3 +33,11 @@ class ViewController: UIViewController {
 
 }
 
+extension BinaryInteger {
+    var degreesToRadians: CGFloat { return CGFloat(Int(self)) * .pi / 180 }
+}
+
+extension FloatingPoint {
+    var degreesToRadians: Self { return self * .pi / 180 }
+    var radiansToDegrees: Self { return self * 180 / .pi }
+}
